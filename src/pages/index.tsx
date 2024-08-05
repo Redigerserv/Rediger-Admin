@@ -2,10 +2,14 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
+import Logo from "../../assets/images/logo.png"
+import slide01 from "../assets/images/logo-dark-small.png"
+import slide02 from "../assets/images/slides/promo-b.png"
+import slide03 from "../assets/images/slides/promo-c.png"
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+const  Home = () => {
   return (
     <>
       <Head>
@@ -18,3 +22,4 @@ export default function Home() {
     </>
   );
 }
+export default Home;
