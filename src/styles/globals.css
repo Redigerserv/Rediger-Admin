@@ -105,3 +105,7 @@ a {
     color-scheme: dark;
   }
 } */
+
+ul.slick-dots {
+text-align: center;
+}
