@@ -109,3 +109,25 @@ a {
 ul.slick-dots {
 text-align: center;
 }
+
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #8094ae;
+  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.dropdownMenu{
+  position: absolute;
+    inset: 0px 0px auto auto;
+    margin: 0px;
+    transform: translate(-10px, 38px);
+}
+.nk-header-news{
+  font-size: 22px;
+  font-weight: 500;
+}
