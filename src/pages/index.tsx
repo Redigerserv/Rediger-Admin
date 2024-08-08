@@ -2,14 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import Logo from "../../assets/images/logo.png"
-import slide01 from "../assets/images/logo-dark-small.png"
-import slide02 from "../assets/images/slides/promo-b.png"
-import slide03 from "../assets/images/slides/promo-c.png"
+import AdminDashboard from "@/components/dashboard/adminDashboard";
 
 // const inter = Inter({ subsets: ["latin"] });
 
-const  Home = () => {
+const Home = () => {
   return (
     <>
       <Head>
@@ -18,7 +15,15 @@ const  Home = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-    <h1>Admin Rediger!</h1>
+      <div className="nk-content" style={{ position: "relative", marginTop: "65px" }}>
+        <div className="container-fluid">
+          <div className="nk-content-inner">
+            <div className="nk-content-body">
+              <AdminDashboard />
+            </div>
+          </div>
+        </div>
+      </div>
     </>
   );
 }
